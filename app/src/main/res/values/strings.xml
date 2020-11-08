@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="mevcut_hesab_n_z_yok_mu_kay_t_yap_n">Mevcut hesabınız yok mu? kayıt yapın</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

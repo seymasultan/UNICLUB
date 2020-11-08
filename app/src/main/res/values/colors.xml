@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#403d3d</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorSiyah">#000000</color>
+    <color name="anarenk">#00ACFF</color>
+    <color name="ikincirenk">#ff5ce7</color>
+    <color name="ucuncurenk">#69ddff</color>
+    <color name="arkaplan">#f0f0f0</color>
+    <color name="colorbirincilArkplan">#192734</color>
+    <color name="colorikincilArkplan">#15202b </color>
+    <color name="colorucunculArkplan">#15202b</color>
+    <color name="kırmızı">#ba1b0d</color>
+    <color name="solgun">#c1c1c1</color>
+    <color name="butonmavisi">#0055ff</color>
+
+</resources>

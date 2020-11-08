@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BaslangicActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_giris"
+        app:layout_constraintEnd_toEndOf="@+id/btn_giris"
+        app:layout_constraintStart_toStartOf="@+id/btn_giris"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logosekiz" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/buton_disable"
+        android:text="Giriş Yap"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btn_kayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:background="@drawable/butonenable"
+        android:text="Kayıt ol"
+        android:textColor="#0055ff" />
+
+
+</LinearLayout>

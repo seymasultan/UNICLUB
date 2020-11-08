@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorikincilArkplan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/alert_form_adi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adınız"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/solgun"
+                android:textColor="@color/colorAccent"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/alert_form_soyadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soyadınız"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/solgun"
+                android:textColor="@color/colorAccent"
+                android:inputType="textPersonName"/>
+            <EditText
+                android:id="@+id/alert_form_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefon numaranız"
+                android:maxLength="10"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/solgun"
+                android:textColor="@color/colorAccent"
+                android:inputType="numberDecimal"/>
+            <EditText
+                android:id="@+id/alert_form_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emailiniz"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/solgun"
+                android:textColor="@color/colorAccent"
+                android:inputType="textEmailAddress"/>
+
+            <Button
+                android:id="@+id/alert_form_kaydolbtn"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buton_disable"
+                android:textColor="@color/colorAccent"
+                android:text="KAYDOL"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
